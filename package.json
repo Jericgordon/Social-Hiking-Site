@@ -1,0 +1,25 @@
+{
+  "name": "social-hiking-site",
+  "version": "1.0.0",
+  "description": "A social hiking site where people can post about their experiences hiking trails in Colorado",
+  "main": "server.js",
+  "scripts": {
+    "startServer": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jericgordon/Social-Hiking-Site.git"
+  },
+  "author": "Jen Gordon and Kinsey Bellerose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jericgordon/Social-Hiking-Site/issues"
+  },
+  "homepage": "https://github.com/Jericgordon/Social-Hiking-Site#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
