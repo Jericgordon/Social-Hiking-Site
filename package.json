@@ -6,6 +6,7 @@
   "scripts": {
     "startServer": "nodemon server.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jericgordon/Social-Hiking-Site.git"
