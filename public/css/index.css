@@ -1,17 +1,54 @@
 .brand-name {
-    color:green;
+  color: green;
 }
 
 .profile {
-    border-radius: 50%;
-    width: 3rem;
-    padding-top: .7rem;
-    height: 3rem;
-    text-align: center;
-    background: lightgreen;
+  border-radius: 50%;
+  width: 3rem;
+  padding-top: 0.7rem;
+  height: 3rem;
+  text-align: center;
+  background: lightgreen;
+}
+
+.user-profile {
+  width: 6rem;
+  height: 6rem;
+  border: 2px solid rgb(66, 66, 66);
+  position: relative;
+  bottom: -4rem;
+  font-size: 40px;
+  /* center text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-left: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.user-profile:hover {
+  transform: scale(1.05);
+}
+
+.profile-header {
+  background: rgb(178, 239, 178);
+  height: 10rem;
+  display: flex;
+  padding: 0 1rem 1rem 1rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+svg {
+  transition: transform 0.3s ease;
+}
+svg:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .nav-header-bar {
-    background: lightgrey;
-    
+  background: lightgrey;
 }
