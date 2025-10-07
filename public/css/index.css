@@ -1,0 +1,17 @@
+.brand-name {
+    color:green;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 3rem;
+    padding-top: .7rem;
+    height: 3rem;
+    text-align: center;
+    background: lightgreen;
+}
+
+.nav-header-bar {
+    background: lightgrey;
+    
+}
