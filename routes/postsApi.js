@@ -3,31 +3,34 @@
 const posts = 
 [
   {
+    "Trail_ID": 101,
     "Trail_Name": "Eagle Ridge Loop",
-    "Trail_Description": "A scenic 5-mile loop offering panoramic views of the valley and distant snow-capped peaks.",
+    "Mileage": 7.8,
     "Star_Rating": 4.7,
-    "Terrain": "Rocky with some steep inclines",
-    "Time_of_Day": "Morning",
-    "Weather": "Clear skies with light breeze",
-    "Difficulty": "Hard"
+    "Time_of_Day": "5pm",
+    "Difficulty": "Hard",
+    "Time_Taken": "3h 45m",
+    "Description": "The Eagle Ridge Loop offered a challenging climb with rewarding views of snow-capped peaks. The trail was rocky in parts, but the sunset light made it spectacular."
   },
   {
-    "Trail_Name": "Maple Creek Path",
-    "Trail_Description": "A shaded forest trail following a gentle creek, ideal for a relaxed afternoon walk.",
-    "Star_Rating": 4.3,
-    "Terrain": "Packed dirt and wooden bridges",
-    "Time_of_Day": "Afternoon",
-    "Weather": "Overcast with mild humidity",
-    "Difficulty": "Easy"
+    "Trail_ID": 102,
+    "Trail_Name": "Pine Hollow Trail",
+    "Mileage": 5.3,
+    "Star_Rating": 4.4,
+    "Time_of_Day": "10am",
+    "Difficulty": "Medium",
+    "Time_Taken": "2h 10m",
+    "Description": "A peaceful mid-morning hike through tall pines and quiet meadows. The incline was steady, and the trail was well-marked throughout."
   },
   {
-    "Trail_Name": "Sunset Bluff Trail",
-    "Trail_Description": "A short climb leading to an open bluff perfect for sunset views over the lake.",
-    "Star_Rating": 4.9,
-    "Terrain": "Gravel and light vegetation",
-    "Time_of_Day": "Evening",
-    "Weather": "Cool with scattered clouds",
-    "Difficulty": "Medium"
+    "Trail_ID": 103,
+    "Trail_Name": "Bear Creek Path",
+    "Mileage": 3.6,
+    "Star_Rating": 4.1,
+    "Time_of_Day": "7am",
+    "Difficulty": "Easy",
+    "Time_Taken": "1h 25m",
+    "Description": "An easy-going early morning walk alongside the creek. The air was crisp, and the wildlife was active. Great for a light hike or a trail run."
   }
 ];
 

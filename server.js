@@ -6,7 +6,12 @@ app.listen(3000)
 
 app.use(express.static("public"))
 
-app.get("/api/users", (req,res) => {
+app.get("/api/posts", (req,res) => {
     console.log(postsApi.data);
     res.json(postsApi);
+})
+
+app.get("/external/gmaps", (req,res) => {
+    console.log(postsApi.data);
+    res.redirect("http://google.com")
 })
