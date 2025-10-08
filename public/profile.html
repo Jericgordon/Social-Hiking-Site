@@ -38,9 +38,16 @@
     </nav>
 
     <!-- Top Profile Container-->
-    <div class="container-fluid profile-header">
+    <div class="container-fluid profile-header ps-5">
       <div class="profile user-profile">J</div>
-      <button class="btn btn-secondary">Edit Profile</button>
+      <button
+        class="btn btn-secondary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        data-bs-whatever="@profile"
+      >
+        Edit Profile
+      </button>
     </div>
 
     <!-- User Content Container-->
@@ -57,7 +64,7 @@
         </div>
         <!-- Posts Data -->
         <div class="col-9">
-          <h1 class="mb-3 ms-2 ">Posts</h1>
+          <h1 class="mb-3 ms-2">Posts</h1>
           <!-- Post Cards -->
           <div class="container pt-3 d-flex flex-column gap-5">
             <div class="card" style="width: auto">
@@ -185,6 +192,69 @@
         </div>
       </div>
       <div class="container"></div>
+    </div>
+
+    <!-- Edit Profile Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Welcome username!
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="display-name" class="col-form-label"
+                  >Display Name:</label
+                >
+                <input
+                  type="display-name"
+                  class="form-control"
+                  id="display-name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="recipient-email" class="col-form-label"
+                  >Email:</label
+                >
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="col-form-label">Password:</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password-input"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-success">Update</button>
+          </div>
+        </div>
+      </div>
     </div>
     <script type="module" src="./js/profile.js"></script>
     <!-- Bootstrap Js import -->
