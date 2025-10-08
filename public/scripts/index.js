@@ -43,7 +43,7 @@ function fetchDataFromAPIAndPostToPage(){
         `<div class="card-body">
                 <div class="card-title hstack">
                     <h5 class="hike-title flex-grow-1">${json.Trail_Name}</h5>
-                    <h6 class="milage">${json.Mileage}</h6>
+                    <h6 class="milage">${json.Mileage}mi</h6>
                     <div class="rating">
                         ${postFetcher.putStarValueText(json.Star_Rating)}
                     </div>

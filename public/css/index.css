@@ -50,3 +50,8 @@
   'opsz' 24;
   color: black;
 }
+
+.add-post-button {
+    margin-left: .5rem;
+    margin-right: 1rem;
+}
