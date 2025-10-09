@@ -1,8 +1,10 @@
 import express from "express"
 
 const PORT = process.env.PORT || 4444;
-
 const app = express();
+
+app.locals.username = '';
+
 
 app.use(express.static("public"))
 
