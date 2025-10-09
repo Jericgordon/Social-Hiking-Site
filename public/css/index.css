@@ -50,5 +50,46 @@ svg:hover {
 }
 
 .nav-header-bar {
-  background: lightgrey;
+    background: lightgrey;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.review {
+    margin: 1rem;
+}
+
+.milage {
+    margin: .5rem;
+}
+
+.card-middle {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.map-link {
+    margin-left: .5rem;
+}
+
+.star {
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: black;
+}
+
+.add-post-button {
+    margin-left: .5rem;
+    margin-right: 1rem;
 }
